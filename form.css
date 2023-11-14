@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('1.jpg');
+    background-size: contain;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box {
+    margin: auto;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    height: 440px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+
+input[id="email"],
+[id="password"] {
+    display: block;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-bottom: 3px solid black;
+    background: transparent;
+    margin: 25px;
+    outline: none;
+}
+
+::placeholder {
+    color: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    background-color: #162938;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.rem {
+    position: relative;
+    left: -110px;
+    top: 0px;
+}
+
+#Forgot {
+    position: relative;
+    right: -110px;
+    top: -19px;
+    text-decoration: none;
+    color: black;
+}
+
+#reg {
+    text-decoration: none;
+    color: black;
+}
